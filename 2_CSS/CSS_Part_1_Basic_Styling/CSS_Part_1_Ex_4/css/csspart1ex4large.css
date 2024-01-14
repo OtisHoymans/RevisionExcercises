@@ -1,0 +1,36 @@
+/* large */
+
+body {
+    background-color: #00283c;
+    color: white;
+}
+
+div {
+    background-color: white;
+    color: black;
+    padding: 25px;
+    border-radius: 0px 50px 50px 50px;
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+article h2, article h3 {
+    background-color: white;
+    color: #00283c;
+}
+
+p {
+    text-align: justify;
+}
+
+figure {
+    padding-top: 22px;
+    background-color: #00283c;
+    color: white;
+    width: 450px;
+    text-align: center;
+    border-radius: 0px 50px 50px 50px;
+}

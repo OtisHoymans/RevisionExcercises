@@ -1,0 +1,14 @@
+/* printer */
+
+body {
+    font-size: 8px;
+    line-height: 1.5
+}
+
+article h2, article h3 {
+    text-decoration: underline;
+}
+
+header, footer, figure {
+    display: none;
+}

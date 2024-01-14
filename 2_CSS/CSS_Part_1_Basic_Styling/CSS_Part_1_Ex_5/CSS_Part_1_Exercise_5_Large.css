@@ -1,0 +1,40 @@
+/* large screens */
+
+body {
+    font-size: 1.5rem;
+}
+
+h1 {
+    text-align: left;
+}
+
+table tr td.adv ul {
+    list-style-image: url(plus.png)
+}
+
+table tr td.adv ul li ul {
+    list-style-image: url(plusplus.png)
+}
+
+table tr td.disadv ul {
+    list-style-image: url(min.png)
+}
+
+table tr td.disadv ul li ul {
+    list-style-image: url(minmin.png)
+}
+
+table {
+    border: 5px solid #fa6432;
+}
+
+col {
+    width: 400px;
+}
+
+caption {
+    background-color: #00283c;
+    color: white;
+    font-size: 1.2rem;
+    caption-side: bottom;
+}

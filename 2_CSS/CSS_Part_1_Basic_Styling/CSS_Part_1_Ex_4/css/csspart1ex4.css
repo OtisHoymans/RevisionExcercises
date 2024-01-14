@@ -1,0 +1,44 @@
+/* all */
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+figcaption {
+    text-transform: uppercase;
+}
+
+a {
+    font-weight: bold;
+    color: #00283c;
+    background-color: white;
+}
+
+nav a {
+    color: #fa6432;
+    background-color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #fa6432;
+}
+
+nav a:focus {
+    color: black;
+    background-color: yellow;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
