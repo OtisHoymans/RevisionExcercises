@@ -1,0 +1,11 @@
+/*large*/
+
+
+a {
+    width: 15rem;
+}
+
+p, ol, ul {
+    width: 60rem;
+    margin: auto;
+}

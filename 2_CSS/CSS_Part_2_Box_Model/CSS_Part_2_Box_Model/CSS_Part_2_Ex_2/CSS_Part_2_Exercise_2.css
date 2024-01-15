@@ -1,0 +1,55 @@
+/*large*/
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #fff;
+    background-size: 2rem 2rem;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), transparent 1px),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.5), transparent 1px);
+}
+
+html {
+    font-size: 16px;
+    margin: auto;
+    max-width: 84rem;
+}
+
+main {
+    border: 1rem solid black;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: left;
+    padding-top: 1rem;
+    background-color: lightgray;
+    text-transform: uppercase;
+    border-bottom: 1rem solid black;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    display: none;
+}
+
+footer {
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: lightgray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1rem solid black;
+}
+
+p img {
+    border-radius: 50%;
+    padding: 0;
+    border: 2rem solid #eee;
+    outline: 0.5rem solid black;
+    margin: 2rem;
+}
+
+

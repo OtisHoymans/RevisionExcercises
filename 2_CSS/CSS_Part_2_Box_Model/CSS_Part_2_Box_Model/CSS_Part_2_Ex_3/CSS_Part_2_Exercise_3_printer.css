@@ -1,0 +1,9 @@
+/* printer */
+
+header {
+    display: none;
+}
+
+section:last-child {
+    display: none;
+}

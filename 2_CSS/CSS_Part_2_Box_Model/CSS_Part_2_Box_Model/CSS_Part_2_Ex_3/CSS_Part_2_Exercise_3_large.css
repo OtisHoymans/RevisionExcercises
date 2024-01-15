@@ -1,0 +1,20 @@
+/* large */
+
+h2 {
+    text-align: center;
+}
+
+section h2 {
+    text-align: left;
+}
+
+section:last-child {
+    max-width: 400px;
+}
+
+section {
+    display: inline-block;
+    width: 45%;
+    margin-right: 5%;
+    padding: 40px;
+}

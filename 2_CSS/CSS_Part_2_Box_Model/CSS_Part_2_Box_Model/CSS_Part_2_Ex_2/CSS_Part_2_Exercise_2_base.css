@@ -1,0 +1,49 @@
+/*base*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    background-color: #d7e7cd;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    padding: 1rem;
+    padding-top: 4rem;
+    border-bottom: 0.5rem solid black;
+    background-color: white;
+}
+
+h2 {
+    text-align: right;
+    font-variant: small-caps;
+    margin-right: 2rem;
+}
+
+p {
+    margin: 1rem;
+}
+
+img {
+    background-color: white;
+    padding: 1rem 1rem 4rem 1rem;
+    margin: 1rem;
+    border-radius: 2px;
+    box-shadow: 0.5rem 0.5rem 0.6rem rgba(150, 150, 150, 0.5)
+}
+
+footer {
+    display: none;
+}
