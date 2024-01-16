@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#services {
+    padding: 30px;
+}
+
+#services h1 {
+    color: #042F5F;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+#services p {
+    font-size: 2em;
+}
+
+#about {
+    min-height: 300px;
+    background-image: url(images/camera.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#services article {
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: #042f5f;
+    box-shadow: 10px 10px 10px rgba(4, 47, 95, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#services article:nth-child(odd) {
+    background-color: #2a68ad;
+}
+
+@media only screen and (min-width:800px) {
+    
+    #about {
+        flex-basis: 50%;
+    }
+    
+    #services {
+        flex-basis: 50%;
+    }
+    
+    
+    div {
+        display: flex;
+        flex-direction:;
+    }
+    
+}
+
+@media only screen and (min-width:1000px) {
+    
+    #services {
+        display: flex;
+        flex-basis: 70%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #about {
+        flex-basis: 30%;
+        height: 100vh;
+    }
+    
+    #services section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    #services section {
+        justify-content: center;
+    }
+    
+    #services section article {
+        flex-basis: 300px;
+    }
+}

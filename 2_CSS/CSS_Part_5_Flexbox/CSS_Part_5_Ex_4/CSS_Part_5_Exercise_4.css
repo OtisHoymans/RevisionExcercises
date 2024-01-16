@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #051632;
+    color: #fff;
+}
+
+header,
+footer {
+    padding: 15px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+header h2, nav span {
+    display: none;
+}
+
+section {
+    background-color: #fff;
+    color: #051632;
+    padding: 30px;
+    border: 3px solid #051632;
+    border-radius: 0px 25px 25px 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url(ring.png);
+    background-repeat: no-repeat;
+}
+
+p {
+    margin: 15px;
+    padding: 15px;
+    border-left: 2px solid darkred;
+}
+
+.color {
+    background-color: #eaebe3;
+    color: #051632;
+    padding: 15px 0px;
+}
+
+section a {
+    display: block;
+    padding: 20px;
+    width: 140px;
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: url(cart.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+section a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center; 
+}
+
+nav li {
+    flex-grow: 1;
+}
+
+nav li a {
+    text-decoration: none;
+    background-color: #0c316e;
+    color: white;
+    font-weight: bold;
+    padding: 20px 5px; 
+    margin: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+nav li a:hover {
+    background-color: #eaebe3;
+    color: #051632;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width:600px) {
+    a span {
+        display: inline-block;
+        margin-right: 5px;
+    }
+    
+    .central {
+        max-width: 600px;
+        margin: auto;
+    }
+    
+    section {
+        width: 265px;
+        margin-left: 25px;
+    }
+        
+    .central.store {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    
+    .central {
+        max-width: 1200px;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .store {
+        background-color: #fff;
+    }
+    
+    section:hover {
+        box-shadow: 5px 5px 5px #666;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

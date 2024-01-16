@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 21px;
+}
+
+section,
+h1,
+p,
+footer {
+    margin: 21px 0;
+}
+
+article {
+    padding-left: 7px;
+}
+
+::selection {
+    color: white;
+    background-color: #ae0804;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #ae0804;
+}
+
+header {
+    background-color: #c61c20;
+    color: white;
+    background-image: url(/images/bgHeader.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 300px;
+    border-radius: 16px 16px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 16px;
+}
+
+header h1 {
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+    
+}
+
+nav ul {
+    list-style-type: none;
+    text-transform: capitalize;
+    border: 2px solid #c61c20;
+    background-color: darkred;
+    
+}
+
+nav ul li a {
+    padding: 30px;
+    display: flex;
+}
+
+nav ul li a:hover {
+    background-color: #ea4327;
+    outline: 2px solid #c61c20;
+}
+
+footer {
+    position: fixed;
+    bottom: 0; 
+    right: 20px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ae0804;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width:600px) {
+    
+    body {
+        color: white;
+        background-color: #3c0201;
+    }
+    
+    div {
+        max-width: 1000px;
+        background-color: #fff;
+        color: black;
+        margin: auto;
+        padding: 21px;
+        border-radius: 20px;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    nav ul li {
+        flex-grow: 1;
+    }
+    
+    nav ul li a {
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
