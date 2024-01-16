@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #eee;
+}
+
+h1,
+h2 {
+    padding-bottom: 20px;
+}
+
+#container {
+    width: 900px;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+div:nth-child(2) {
+    display: flex;
+    justify-content: space-evenly
+}
+
+div:nth-child(2) p {
+    width: 130px;
+    height: 130px;
+    border: 5px solid black;
+    background-color: #f04c25;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 1s
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    padding-left: 5px;
+}
+
+div:nth-child(2) p:first-child:hover {
+    border-radius: 0%;
+    background-color: #009cab;
+}
+
+div:nth-child(2) p:nth-child(2):hover {
+    transform: rotate(360deg)
+}
+
+div:nth-child(2) p:nth-child(3):hover {
+    transform: scale(0.1)
+}
+
+div:nth-child(2) p:nth-child(4):hover {
+    transform: translateY(20px) scaleX(1.1) scaleY(0.8);
+}
+
+div:nth-child(2) p:nth-child(5):hover {
+    color: #f04c25;
+    transform: scale(2.25);
+    border: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
