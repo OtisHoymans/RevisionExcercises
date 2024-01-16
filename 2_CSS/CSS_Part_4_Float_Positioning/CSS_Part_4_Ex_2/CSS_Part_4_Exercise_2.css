@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, p, div {
+    margin: 20px;
+}
+
+div div {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.combined {
+    width: 400px;
+    position: relative;
+}
+
+.style {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    font-size: 2rem;
+    bottom: 0px;
+}
+
+.style1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.combined:hover .style1 {
+    background-color: transparent;
+}
+
+.style2 {
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 15px;
+    padding-top: 350px;
+}
+
+.combined:hover .style2 {
+    color: white;
+}
+
+.style3 {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    height: 50px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.combined:hover .style3 {
+    background-color: black;
+}
+
+.style4 {
+    color: rgba(255, 255, 255, 0)
+}
+
+.combined:hover .style4 {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 180px;
+}
+
+
+
+
+

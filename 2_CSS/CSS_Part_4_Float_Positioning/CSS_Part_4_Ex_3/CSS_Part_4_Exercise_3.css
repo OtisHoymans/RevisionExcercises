@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+header, footer {
+    font-size: 2rem;
+    font-variant: small-caps;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+p, h2, h3 {
+    margin: 20px;
+}
+
+ul, ol {
+    margin: 35px;
+}
+
+a {
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+}
+
+figure, header span {
+    display: none;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+@media only screen and (min-width:1000px) {
+    
+    body {
+        background-image: url(4p.png);
+        background-position: 50px 130px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    article {
+        margin-left: 200px;
+        margin-right: 100px;
+        border-left: 3px solid #999;
+    }
+    
+    header span {
+        display: inline-block;
+        font-size: 1.5rem;
+        background-color: #666;
+        padding: 10px;
+        position: relative;
+        top: 25px;
+        color: white;
+    }
+    
+    nav {
+        position: fixed;
+        left: 10px;
+        top: 250px;
+        width: 175px;
+        background-color: red;
+        color: white;
+        list-style-type: none;        
+    }
+    
+    nav ul li{
+        padding: 10px
+    }
+    
+    nav ul li a {
+        width: 110px;
+        color: white;
+        background-color: red;
+        padding: 10px;
+    }
+    
+    nav ul li a:hover {
+        background-color: white;
+        color: black;
+    }
+    
+    nav h2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1100px) {
+    figure {
+        display: inline-block;
+        width: 800px;
+        height: 640px;
+        border: 3px solid black;
+        box-shadow: 4px 4px 4px #666;
+        border-radius: 10px;
+        margin: 20px 0px 20px 50px
+    }
+    
+    figcaption {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        width: 794px;
+        margin-bottom: 40px;
+    }
+    
+     .leaf {
+        padding: 100px;
+        width: 360px;
+        font-size: 2rem;
+        font-weight: bold;
+        position: absolute;
+    }
+    
+    figure {
+        position: relative;
+    }
+    
+    div#product {
+        background-color: green;
+        color: white;
+        left: 20px;
+        top: 90px;
+        border-radius: 0% 50% 0% 50%;
+    }
+    
+    div#price {
+        background-color: orange;
+        color: white;
+        left: 410px;
+        top: 90px;
+        border-radius: 50% 0% 50% 0%;
+    }
+    
+    div#place {
+        background-color: dodgerblue;
+        color: white;
+        left: 20px;
+        top: 370px;
+        border-radius: 50% 0% 50% 0%;
+    }
+    
+    div#promotion {
+        background-color: red;
+        color: white;
+        left: 410px;
+        top: 370px;
+        border-radius: 0% 50% 0% 50%;
+    }
+}
